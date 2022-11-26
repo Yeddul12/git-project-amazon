@@ -1,0 +1,38 @@
+============@@@@@@ JENKINS INSTALLIZATION PROCESS @@@@@ ========
+	///==// AWS TO EC2 CONNECT IN ONLINE TERMINAL IN EC2 //==///
+		$sudo su -
+		#yum update -y
+
+	To use this repository, run the following command:
+	
+		#sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+		#sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+		#amazon-linix-extras install epel
+		#amazon-linux-extras install java-openjdk11
+		
+		#on REHat/CentOs
+		#yum install epel-release  # repository that provides 'daemonize'
+		
+			
+		#yum install fontconfig java-11-openjdk
+		#yum install jenkins
+
+	===%%%%--- START JENKINS %%%%====
+
+		#service jenkins start  (" start jenkins service")
+		#chkconfig jenkins on   (" setup jenkins to start at  boot")
+		
+	+++=== ACCESSING JENKINS ===++++
+
+		http://your-server-public-ip:8080(portid)
+		
+
+	++++---// CONFIGURACTION JENKINS //---++++
+		1.USERNSME , PASSWORD LOCATION (var/lib/jenkins/secrets/initlaizationAdminpassword
+		2.INSTALL PLUGINS
+		3.ADMIN > CONFIGURE > PASSWORD
+		4.CONFIGURE PATH
+		5.CREATE ANOTHER ADMIN USER ID
+
+	
+
