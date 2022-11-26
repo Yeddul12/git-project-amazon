@@ -1,0 +1,9 @@
+<html>
+	<body style="background-color:powderblue;">
+		<div align="center">
+			<h1 style="color:red;">LOYOLA DEGREE COLLEGE,Pulivendula</h1>
+			<h2 style="color:orange;">Course (B.Sc,B.B.A,B.Z.C)</h2>
+			<h3 style="color:green;">MPS(mathematics,physics,statistics)/MPC(mathematics,physics,chemistry)/MPCS(mathematics,physics,computer science)/MSCS(mathematics,statistics,computer science)/</h3>
+		</div>
+	</body>
+</html>
