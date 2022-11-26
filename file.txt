@@ -5,6 +5,11 @@ git-practice in amazon-linux and maven-project
 	#yum update 
 	#which git ;which java ;which javac ;which mvn ;who ;whoami ;ls -lasrth
 	#git --version ;java -version ;javac -version ;mvn -version ;ls
+
+		===**** LOCAL REPOSITORY TO REMOTE REPOSITORY PUSH ****===
+			BUT SOME CREATE A GITHUB ACCOUNT 
+			====@@@@@	CREATE A NEW_REPOSITORY - COPY THE CODE @@@@@@==== 
+
 	#git init 
 	#mkdir git-project ; cd git-project ;ls ;vi file.txt ;ls -a 
 	#git status ;ls ;git add file.txt ;ls ;git status ;git commit -m "new_message" ;ls ;git status
@@ -16,5 +21,29 @@ git-practice in amazon-linux and maven-project
 			   generate new token ( create note (name ur wish) - expiration date (no expiration) - select repo - click generate token .
 			   create a token to copy to paste in notepad using pushing times this token...
 
-	# 
-	
+	#git branch -all
+	#git status ;ls ;git show ;git log --oneline --graph --all ;git log
+	#git remote add master https://github.com/Yeddul12/git-project-amazon.git
+	#ls
+	#git push -u origin master 
+	#git push -u master  master 
+	#ls ;git status 
+
+
+		=====&&&&& MAVEN-PROJECT /// STPES
+						1. CLONE
+						2. VERSION (GIT , MAVEN & JAVA)
+						3. INSTALL GIT // JAVA // MAVEN 
+						4. BUILD 
+							(# mvn install ; ls ; ) - showing a target folder to moving inside target folder ( cd target ;								 ls (To check the WAR file )) 
+						5. CREATE A NEW DIRECTORY 
+						    ( #mkdir outout :ls ;cd output ;ls ; wget <URL apache-tomcat-9-download > ) 
+						6. COPY THE WAR FILE MOVING IN WEBAPPS. WHERE WEBAAPS INSIDE APACHE 
+						   ( #cp war.file /home/user/directory/apache/webapps/  ; ls )  
+						7. TO MOVE TO BIN TO START TO TOMCAT STARTED
+						   ( #cd ../bin/ ;ls ;./startup.sh ).
+						8. TO COPY HOSTNAME ( #hostname -i) 
+						9. SERCHING IN WEBAPPS ( https://localhost:portid/file.warname).
+							DISPLAY IN OUTPUT 
+	=====#### END ####====
+
