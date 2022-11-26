@@ -1,0 +1,20 @@
+git-practice in amazon-linux and maven-project 
+
+	$sudo su
+	#yum update -y
+	#yum update 
+	#which git ;which java ;which javac ;which mvn ;who ;whoami ;ls -lasrth
+	#git --version ;java -version ;javac -version ;mvn -version ;ls
+	#git init 
+	#mkdir git-project ; cd git-project ;ls ;vi file.txt ;ls -a 
+	#git status ;ls ;git add file.txt ;ls ;git status ;git commit -m "new_message" ;ls ;git status
+	#git push
+		
+		   ===ASKING USERNAME AND PASSWORD ===
+		username : Yeddul12
+		password : generated token --- go to gihub profile - go to settings - go to devveloper settings - go to personal access tokens - 
+			   generate new token ( create note (name ur wish) - expiration date (no expiration) - select repo - click generate token .
+			   create a token to copy to paste in notepad using pushing times this token...
+
+	# 
+	
