@@ -1,4 +1,4 @@
-============@@@@@@ JENKINS INSTALLIZATION PROCESS @@@@@ ========
+===========@@@@@@ JENKINS INSTALLIZATION PROCESS @@@@@ ========
 	///==// AWS TO EC2 CONNECT IN ONLINE TERMINAL IN EC2 //==///
 		$sudo su -
 		#yum update -y
